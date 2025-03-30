@@ -1,5 +1,5 @@
 resource "aws_instance" "first-trail" {
-  ami           = "ami-076c6dbba59aa92e6"  # Change to your desired AMI ID
+  ami           = "ami-0e35ddab05955cf57"  # Change to your desired AMI ID
   instance_type = "t2.micro"                # Change the instance type if needed
 
   # Optional: Add tags to the EC2 instance

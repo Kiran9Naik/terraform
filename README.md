@@ -1,5 +1,6 @@
 # terraform
 entire practice on terraform
+<<<<<<< HEAD
 
 firstly i'm installing terraform bin file in my local system 
 
@@ -26,3 +27,5 @@ check the values and run the
 terraform plan check the changes and run 
 
 terraform apply 
+=======
+>>>>>>> 8c8ee1a6074f2320d39717c3161557e9d9d74b9f

@@ -1,3 +1,4 @@
+# Query the VPC by name (replace "Test" with your actual VPC name)
 resource "aws_instance" "first-trail" {
   ami           = "ami-0e35ddab05955cf57"  # Change to your desired AMI ID
   instance_type = "t2.micro"                # Change the instance type if needed
@@ -9,7 +10,7 @@ resource "aws_instance" "first-trail" {
 
   # Optional: Add a security group inline (you can also use an existing one)
   vpc_security_group_ids = [
-    aws_security_group.allow_ssh.id
+  #  aws_security_group.allow_ssh.id
   ]
 
   # Optional: Specify key pair for SSH access (replace with your key name)
